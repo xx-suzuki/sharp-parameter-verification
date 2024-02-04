@@ -1,0 +1,19 @@
+{
+  "name": "sharp-parameter-verification",
+  "scripts": {
+    "build": "rimraf dist/ && node image-min.mjs"
+  },
+  "engines": {
+    "node": "20",
+    "npm": "10"
+  },
+  "devDependencies": {
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "pretty-bytes": "^6.1.1",
+    "rimraf": "^5.0.1",
+    "sharp": "^0.33.2"
+  },
+  "license": "MIT",
+  "private": true
+}

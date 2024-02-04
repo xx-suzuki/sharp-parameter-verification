@@ -1,0 +1,18 @@
+# System files
+logs
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Dependency directories
+node_modules/
+
+# dotenv environment
+.env
+
+# Project outputs
+dist/
+
+# Cache
+.cache
